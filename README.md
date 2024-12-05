@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in React Router v6 related to nested routes and routes with parameters. When a route with parameters is placed before other routes, it seems to intercept requests that should go to other routes, preventing those routes from rendering. The solution involves carefully ordering your routes or utilizing a catch-all route.
